@@ -10,7 +10,7 @@ Original file is located at
 import streamlit as st
 import pandas as pd
 
-st.title('POLICE Incident Reports from 2018 to 2020 in San Francisco')
+st.title('POLICE INCIDENT REPORTS FROM 2018 TO 2020 IN SAN FRANCISCO')
 
 df = pd.read_csv('https://drive.google.com/file/d/1sUXMxryvguQp81yseLxYymTX5RxaH0e9/view?usp=drive_link/Police_Department_Incident_Reports__2018_to_Present.csv')
 
