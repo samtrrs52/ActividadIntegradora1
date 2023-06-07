@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv('https://www.dropbox.com/s/2vv98z2pf2qvi9b/Police_Department_Incident_Reports__2018_to_Present.csv?dl=0')
+df = pd.read_csv('https://github.com/samtrrs52/ActividadIntegradora1/blob/bed49a7bf39fc0e5b03a5e6c3f991a5db97670e9/Prueba_Police_Department_Incident_Reports__2018_to_Present.csv')
 
 st.dataframe(df)
 
