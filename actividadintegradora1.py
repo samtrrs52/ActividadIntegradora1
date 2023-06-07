@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv('Police_Department_Incident_Reports__2018_to_Present.csv')
+df = pd.read_csv('https://1drv.ms/u/s!Ap6XABHnyNvlpVqiu81lGSyg9bVP?e=8wDpM5')
 
 st.dataframe(df)
 
